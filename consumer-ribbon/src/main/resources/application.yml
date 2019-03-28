@@ -1,0 +1,13 @@
+
+#服务消费者
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: service-ribbon
+main:
+    allow-bean-definition-overriding: true
