@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lauren</groupId>
-	<artifactId>springboot</artifactId>
+	<artifactId>myMicroService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot</name>
+	<name>myMicroService</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -25,7 +25,7 @@
 		<module>eureka</module>
 		<module>provider</module>
 		<module>service-zuul</module>
-		<module>config</module>
+		<module>configCenter</module>
 	</modules>
 
 	<dependencies>
